@@ -6,7 +6,7 @@
 
 1. 설치
    ```
-   npm install grommet grommet-icons styled-components --save
+   yarn add grommet styled-components
    ```
 2. 이런 식으로 임포트해서
    ```
