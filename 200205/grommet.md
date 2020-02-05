@@ -1,5 +1,7 @@
 # grommet [(공식 링크)](https://v2.grommet.io/)
 
+![그림](https://trello-attachments.s3.amazonaws.com/5e1bc202db7fa64ef4e965c4/5e39387f87dc0c300f09f54c/6168443744a143c9fd7b1b9d2c725df0/image.png)
+
 ## 튜토리얼
 
 1. 설치
