@@ -54,6 +54,8 @@
 
 - 예시
 
+![button](https://trello-attachments.s3.amazonaws.com/5e39387f87dc0c300f09f54c/726x658/3fee98513749fc5bdc39e6a5b8f471eb/image.png)
+
 ```js
 import React from "react";
 import { storiesOf } from "@storybook/react";
