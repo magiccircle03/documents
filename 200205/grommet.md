@@ -81,3 +81,40 @@ const BasicButtons = props => (
 
 storiesOf("Button", module).add("Basic", () => <BasicButtons />);
 ```
+
+## 특징
+
+- 테마를 사용하여 커스터마이징 가능
+
+```
+  // color를 brand라는 이름으로 정의하고
+  const theme = {
+    global: {
+      colors: {
+        brand: "#aa33aa"
+      },
+      font: {
+        family: "Roboto",
+        size: "18px",
+        height: "20px"
+      }
+    }
+  };
+
+  // 이렇게 적용가능
+  const AppBar = props => (
+    <Box
+      tag="header"
+      direction="row"
+      align="center"
+      justify="between"
+      background="brand"
+      pad={{ left: "medium", right: "small", vertical: "small" }}
+      elevation="medium"
+      style={{ zIndex: "1" }}
+      {...props}
+    />
+  );
+
+
+```
