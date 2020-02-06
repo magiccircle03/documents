@@ -86,6 +86,8 @@ storiesOf("Button", module).add("Basic", () => <BasicButtons />);
 
 - 테마를 사용하여 커스터마이징 가능
 
+예시 1
+
 ```
   // color를 brand라는 이름으로 정의하고
   const theme = {
@@ -117,4 +119,30 @@ storiesOf("Button", module).add("Basic", () => <BasicButtons />);
   );
 
 
+```
+
+예시 2
+![그림](https://trello-attachments.s3.amazonaws.com/5e1bc202db7fa64ef4e965c4/5e39387f87dc0c300f09f54c/f581a89c2dbaef63534d4449af51dffa/image.png)
+
+문서에 이렇게 써있다면, 코드로는 이런 모양
+
+```js
+const theme = {
+  global: {
+    colors: {
+      brand: "#aa33aa"
+    },
+    font: {
+      family: "Roboto",
+      size: "18px",
+      height: "20px"
+    }
+  },
+  accordion: {
+    icons: {
+      color: "hotpink"
+    },
+    border: undefined
+  }
+};
 ```
